@@ -1,0 +1,13 @@
+{
+  "name": "taco-stand-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --use-strict test/taco-stand.spec.js",
+    "start": "node --use-strict src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {}
+}
