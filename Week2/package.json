@@ -1,0 +1,15 @@
+
+
+{
+  "name": "functionality-demo",
+  "version": "1.0.0",
+  "description": "A project demonstrating createRecipe, setTimer, and quit functions.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node tester.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
