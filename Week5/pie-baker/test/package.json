@@ -1,0 +1,15 @@
+{
+  "name": "pie-baker",
+  "version": "1.0.0",
+  "description": "Project to test the bakePie function with Jest",
+  "main": "pie.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": ["pie", "test", "jest"],
+  "author": "Chris Weaver | Web340",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.0.0"
+  }
+}
