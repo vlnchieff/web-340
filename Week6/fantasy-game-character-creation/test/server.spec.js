@@ -1,15 +1,24 @@
+/*
+Chris Weaver
+Web340 | Week6
+2025 May 02
+*/
+
 const request = require("supertest");
-const server = require("../server");
+const server = require("../src/server");
 
 describe("Character Creation", () => {
   let characterId;
 
   beforeEach(async () => {
-    // Create a character before running tests that require it
     const response = await request(server)
       .post("/create-character?class=Mage&gender=Female&funFact=Master of illusions");
 
     characterId = response.body.id;
+  });
+
+  afterAll(async () => {
+    await server.close(); // Ensure the server shuts down after tests
   });
 
   test("POST /create-character should create a character", async () => {
