@@ -1,0 +1,14 @@
+{
+  "name": "game-characters",
+  "version": "1.0.0",
+  "description": "A game character module for managing character data and testing.",
+  "main": "game-characters.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
